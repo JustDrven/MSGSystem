@@ -1,0 +1,12 @@
+name: MSGSystem
+version: '${project.version}'
+main: cz.drven.msgsystem.main.Main
+authors: [ Drven ]
+commands:
+  msg:
+    aliases:
+      - pm
+      - tell
+
+permissions:
+  msg.use:
