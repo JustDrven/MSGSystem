@@ -3,6 +3,7 @@ version: '${project.version}'
 main: cz.drven.msgsystem.main.Main
 authors: [ Drven ]
 commands:
+  spy:
   msg:
     aliases:
       - pm
@@ -10,3 +11,4 @@ commands:
 
 permissions:
   msg.use:
+  spy.use:
